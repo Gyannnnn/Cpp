@@ -20,8 +20,12 @@ int main(){
         cout<<nums[i];
         cout<<endl;
     }
+
     int n = sizeof(nums)/sizeof(nums[0]);
+    cout<<"......................................."<<endl;
     cout<<"The Maximum Number In The Enterer Array Is ->"<<" "<<maxnumber(nums,n);
+    cout<<endl;
+    cout<<"......................................."<<endl;
 
 
 }
